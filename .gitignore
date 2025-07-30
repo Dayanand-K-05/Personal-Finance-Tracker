@@ -1,0 +1,16 @@
+# .gitignore
+
+# Python
+*.pyc
+__pycache__/
+venv/
+.env
+
+# Django
+db.sqlite3
+/static/ # If you have a top-level static folder for development
+/staticfiles/ # Collected static files for production
+
+# IDE
+.vscode/
+.idea/
